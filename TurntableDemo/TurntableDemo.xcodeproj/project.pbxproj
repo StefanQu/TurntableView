@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A513061204681E000E5BC6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A513060204681E000E5BC6D /* AppDelegate.m */; };
+		1A513064204681E000E5BC6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A513063204681E000E5BC6D /* ViewController.m */; };
+		1A513067204681E000E5BC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A513065204681E000E5BC6D /* Main.storyboard */; };
+		1A513069204681E000E5BC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A513068204681E000E5BC6D /* Assets.xcassets */; };
+		1A51306C204681E000E5BC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A51306A204681E000E5BC6D /* LaunchScreen.storyboard */; };
+		1A51306F204681E000E5BC6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51306E204681E000E5BC6D /* main.m */; };
+		1A513079204681E100E5BC6D /* TurntableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A513078204681E100E5BC6D /* TurntableDemoTests.m */; };
+		1A513084204681E100E5BC6D /* TurntableDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A513083204681E100E5BC6D /* TurntableDemoUITests.m */; };
+		1A5130942046822000E5BC6D /* TurnTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5130932046822000E5BC6D /* TurnTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A513075204681E100E5BC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A513054204681E000E5BC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A51305B204681E000E5BC6D;
+			remoteInfo = TurntableDemo;
+		};
+		1A513080204681E100E5BC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A513054204681E000E5BC6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A51305B204681E000E5BC6D;
+			remoteInfo = TurntableDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A51305C204681E000E5BC6D /* TurntableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurntableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A51305F204681E000E5BC6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A513060204681E000E5BC6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A513062204681E000E5BC6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A513063204681E000E5BC6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A513066204681E000E5BC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A513068204681E000E5BC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A51306B204681E000E5BC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A51306D204681E000E5BC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A51306E204681E000E5BC6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A513074204681E100E5BC6D /* TurntableDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurntableDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A513078204681E100E5BC6D /* TurntableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurntableDemoTests.m; sourceTree = "<group>"; };
+		1A51307A204681E100E5BC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A51307F204681E100E5BC6D /* TurntableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurntableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A513083204681E100E5BC6D /* TurntableDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurntableDemoUITests.m; sourceTree = "<group>"; };
+		1A513085204681E100E5BC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5130922046822000E5BC6D /* TurnTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TurnTableView.h; sourceTree = "<group>"; };
+		1A5130932046822000E5BC6D /* TurnTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurnTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A513059204681E000E5BC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A513071204681E100E5BC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51307C204681E100E5BC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A513053204681E000E5BC6D = {
+			isa = PBXGroup;
+			children = (
+				1A51305E204681E000E5BC6D /* TurntableDemo */,
+				1A513077204681E100E5BC6D /* TurntableDemoTests */,
+				1A513082204681E100E5BC6D /* TurntableDemoUITests */,
+				1A51305D204681E000E5BC6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A51305D204681E000E5BC6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A51305C204681E000E5BC6D /* TurntableDemo.app */,
+				1A513074204681E100E5BC6D /* TurntableDemoTests.xctest */,
+				1A51307F204681E100E5BC6D /* TurntableDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A51305E204681E000E5BC6D /* TurntableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1A5130912046820400E5BC6D /* Classes */,
+				1A51305F204681E000E5BC6D /* AppDelegate.h */,
+				1A513060204681E000E5BC6D /* AppDelegate.m */,
+				1A513062204681E000E5BC6D /* ViewController.h */,
+				1A513063204681E000E5BC6D /* ViewController.m */,
+				1A513065204681E000E5BC6D /* Main.storyboard */,
+				1A513068204681E000E5BC6D /* Assets.xcassets */,
+				1A51306A204681E000E5BC6D /* LaunchScreen.storyboard */,
+				1A51306D204681E000E5BC6D /* Info.plist */,
+				1A51306E204681E000E5BC6D /* main.m */,
+			);
+			path = TurntableDemo;
+			sourceTree = "<group>";
+		};
+		1A513077204681E100E5BC6D /* TurntableDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A513078204681E100E5BC6D /* TurntableDemoTests.m */,
+				1A51307A204681E100E5BC6D /* Info.plist */,
+			);
+			path = TurntableDemoTests;
+			sourceTree = "<group>";
+		};
+		1A513082204681E100E5BC6D /* TurntableDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A513083204681E100E5BC6D /* TurntableDemoUITests.m */,
+				1A513085204681E100E5BC6D /* Info.plist */,
+			);
+			path = TurntableDemoUITests;
+			sourceTree = "<group>";
+		};
+		1A5130912046820400E5BC6D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A5130922046822000E5BC6D /* TurnTableView.h */,
+				1A5130932046822000E5BC6D /* TurnTableView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A51305B204681E000E5BC6D /* TurntableDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A513088204681E100E5BC6D /* Build configuration list for PBXNativeTarget "TurntableDemo" */;
+			buildPhases = (
+				1A513058204681E000E5BC6D /* Sources */,
+				1A513059204681E000E5BC6D /* Frameworks */,
+				1A51305A204681E000E5BC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurntableDemo;
+			productName = TurntableDemo;
+			productReference = 1A51305C204681E000E5BC6D /* TurntableDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A513073204681E100E5BC6D /* TurntableDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A51308B204681E100E5BC6D /* Build configuration list for PBXNativeTarget "TurntableDemoTests" */;
+			buildPhases = (
+				1A513070204681E100E5BC6D /* Sources */,
+				1A513071204681E100E5BC6D /* Frameworks */,
+				1A513072204681E100E5BC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A513076204681E100E5BC6D /* PBXTargetDependency */,
+			);
+			name = TurntableDemoTests;
+			productName = TurntableDemoTests;
+			productReference = 1A513074204681E100E5BC6D /* TurntableDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A51307E204681E100E5BC6D /* TurntableDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A51308E204681E100E5BC6D /* Build configuration list for PBXNativeTarget "TurntableDemoUITests" */;
+			buildPhases = (
+				1A51307B204681E100E5BC6D /* Sources */,
+				1A51307C204681E100E5BC6D /* Frameworks */,
+				1A51307D204681E100E5BC6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A513081204681E100E5BC6D /* PBXTargetDependency */,
+			);
+			name = TurntableDemoUITests;
+			productName = TurntableDemoUITests;
+			productReference = 1A51307F204681E100E5BC6D /* TurntableDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A513054204681E000E5BC6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SteFan;
+				TargetAttributes = {
+					1A51305B204681E000E5BC6D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1A513073204681E100E5BC6D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A51305B204681E000E5BC6D;
+					};
+					1A51307E204681E100E5BC6D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A51305B204681E000E5BC6D;
+					};
+				};
+			};
+			buildConfigurationList = 1A513057204681E000E5BC6D /* Build configuration list for PBXProject "TurntableDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A513053204681E000E5BC6D;
+			productRefGroup = 1A51305D204681E000E5BC6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A51305B204681E000E5BC6D /* TurntableDemo */,
+				1A513073204681E100E5BC6D /* TurntableDemoTests */,
+				1A51307E204681E100E5BC6D /* TurntableDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A51305A204681E000E5BC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51306C204681E000E5BC6D /* LaunchScreen.storyboard in Resources */,
+				1A513069204681E000E5BC6D /* Assets.xcassets in Resources */,
+				1A513067204681E000E5BC6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A513072204681E100E5BC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51307D204681E100E5BC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A513058204681E000E5BC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A513064204681E000E5BC6D /* ViewController.m in Sources */,
+				1A51306F204681E000E5BC6D /* main.m in Sources */,
+				1A5130942046822000E5BC6D /* TurnTableView.m in Sources */,
+				1A513061204681E000E5BC6D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A513070204681E100E5BC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A513079204681E100E5BC6D /* TurntableDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51307B204681E100E5BC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A513084204681E100E5BC6D /* TurntableDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A513076204681E100E5BC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A51305B204681E000E5BC6D /* TurntableDemo */;
+			targetProxy = 1A513075204681E100E5BC6D /* PBXContainerItemProxy */;
+		};
+		1A513081204681E100E5BC6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A51305B204681E000E5BC6D /* TurntableDemo */;
+			targetProxy = 1A513080204681E100E5BC6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A513065204681E000E5BC6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A513066204681E000E5BC6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A51306A204681E000E5BC6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A51306B204681E000E5BC6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A513086204681E100E5BC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A513087204681E100E5BC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A513089204681E100E5BC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TurntableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.nice.TurntableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A51308A204681E100E5BC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TurntableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.nice.TurntableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A51308C204681E100E5BC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TurntableDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.nice.TurntableDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurntableDemo.app/TurntableDemo";
+			};
+			name = Debug;
+		};
+		1A51308D204681E100E5BC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TurntableDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.nice.TurntableDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurntableDemo.app/TurntableDemo";
+			};
+			name = Release;
+		};
+		1A51308F204681E100E5BC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TurntableDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.nice.TurntableDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TurntableDemo;
+			};
+			name = Debug;
+		};
+		1A513090204681E100E5BC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TurntableDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.nice.TurntableDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TurntableDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A513057204681E000E5BC6D /* Build configuration list for PBXProject "TurntableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A513086204681E100E5BC6D /* Debug */,
+				1A513087204681E100E5BC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A513088204681E100E5BC6D /* Build configuration list for PBXNativeTarget "TurntableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A513089204681E100E5BC6D /* Debug */,
+				1A51308A204681E100E5BC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A51308B204681E100E5BC6D /* Build configuration list for PBXNativeTarget "TurntableDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51308C204681E100E5BC6D /* Debug */,
+				1A51308D204681E100E5BC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A51308E204681E100E5BC6D /* Build configuration list for PBXNativeTarget "TurntableDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51308F204681E100E5BC6D /* Debug */,
+				1A513090204681E100E5BC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A513054204681E000E5BC6D /* Project object */;
+}
